@@ -1,44 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>V-ide by crivotz</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/main.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>V-ide by crivotz</title>
   </head>
+
   <body>
 
-      <header>
+    <header>
+      <div class="container">
         <h1>V-ide</h1>
-        <p>Vim custom configuration, oriented for web developers (rails, ruby, php, html, css, SCSS, javascript)</p>
-      </header>
+        <h2>Vim custom configuration, oriented for web developers (rails, ruby, php, html, css, SCSS, javascript)</h2>
 
-      <div id="banner">
-        <span id="logo"></span>
+        <section id="downloads">
+          <a href="https://github.com/crivotz/v-ide/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/crivotz/v-ide/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/crivotz/v-ide" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
 
-        <a href="https://github.com/crivotz/v-ide" class="button fork"><strong>View On GitHub</strong></a>
-        <div class="downloads">
-          <span>Downloads:</span>
-          <ul>
-            <li><a href="https://github.com/crivotz/v-ide/zipball/master" class="button">ZIP</a></li>
-            <li><a href="https://github.com/crivotz/v-ide/tarball/master" class="button">TAR</a></li>
-          </ul>
-        </div>
-      </div><!-- end banner -->
-
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
-      <section>
+    <div class="container">
+      <section id="main_content">
         <h1>
 <a id="v-ide" class="anchor" href="#v-ide" aria-hidden="true"><span class="octicon octicon-link"></span></a>V-ide</h1>
 
@@ -119,6 +108,8 @@ But I hope that it will be useful to other  </p>
 <a href="https://github.com/kchmck/vim-coffee-script">vim-coffee-script</a>: CoffeeScript support for vim (disabled in vimrc)</li>
 <li>
 <a href="https://github.com/sjl/gundo.vim/">gundo</a>: Graph your Vim undo tree in style</li>
+<li>
+<a href="https://github.com/tpope/vim-capslock.git">vim-capslock</a>: Software capslock (disable hw key via OS)</li>
 </ul>
 
 <p><strong>COLOR SCHEMES</strong></p>
@@ -131,6 +122,9 @@ But I hope that it will be useful to other  </p>
 <li><a href="https://github.com/vim-scripts/Wombat">Wombat</a></li>
 <li>
 <a href="https://github.com/jnurmine/Zenburn">Zenburn</a><br>
+</li>
+<li>
+<a href="https://github.com/altercation/vim-colors-solarized">Solarized</a><br>
 </li>
 </ul>
 
@@ -149,15 +143,12 @@ But I hope that it will be useful to other  </p>
 </ul>
 
 <p><strong>DEPENDENCIES</strong><br>
-1. <a href="http://ctags.sourceforge.net">Exuberant ctags</a><br>
-2. DejaVu Sans Mono for Powerline (You can find it inside Fonts folder, for another font take a look to the <a href="https://powerline.readthedocs.org/en/master/installation.html#patched-fonts">Powerline docs</a>)</p>
+1. Vim compiled with ruby and lua 
+2. <a href="http://ctags.sourceforge.net">Exuberant ctags</a><br>
+3. DejaVu Sans Mono for Powerline (You can find it inside Fonts folder, for another font take a look to the <a href="https://powerline.readthedocs.org/en/master/installation.html#patched-fonts">Powerline docs</a>)</p>
       </section>
-      <footer>
-        <p>Project maintained by <a href="https://github.com/crivotz">crivotz</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
-      </footer>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
     
   </body>
 </html>
